@@ -1,0 +1,15 @@
+{
+  "name": "integration",
+  "version": "1.0.0",
+  "description": "demo for newman jenkins integration",
+  "directories" : {
+  "test" : "tests"
+  }
+  "scripts": {
+    "api-tests-production": "newman run tests/jenkins.postman_collection.json"
+  },
+  "author": "supraja",
+  "dependencies": {
+    "newman": "^3.9.3"
+  }
+}
